@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Basketball Score App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <h1>Home</h1>
+            <h2 class="Score"  id="home-score">0</h2>
+        </div>
+        <div>
+            <h1>Guest</h1>
+            <h2 class="Guest Score" id="guest-score">0</h2>
+        </div>
+    </div>
+    <div class="big-btn-container">
+    <div class="btn-container">
+    <div>
+        <button class="score-btn" onclick="addOne()" id="home-add-one">+1</button>
+        <button class="score-btn" onclick="add2()" id="home-add-two">+2</button>
+        <button class="score-btn" onclick="add3()" id="home-add-three">+3</button>
+    </div>
+    </div>
+    <div class="guest btn-container">
+        <div>
+            <button class="score-btn" onclick="guestAdd1()" id="guest-home-one">+1</button>
+            <button class="score-btn" onclick="guestAdd2()" id="guest-home-two">+2</button>
+            <button class="score-btn" onclick="guestAdd3()" id="guest-home-three">+3</button>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
