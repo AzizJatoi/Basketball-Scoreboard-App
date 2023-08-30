@@ -11,7 +11,7 @@
 .container { 
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 h1 { 
@@ -25,6 +25,7 @@ h1 {
     height: 200px;
     font-family: 'Black Ops One', cursive;
     margin: 1rem auto;
+    color: #f91212;
 }
 .big-btn-container {
     display: flex;
