@@ -46,3 +46,12 @@ h1 {
     font-size: 3rem;
     cursor: pointer;
 }
+.new-game-btn {
+    display: flex;
+    margin: 40px auto;
+    width: 170px;
+    height: 45px;
+    background-color: rgb(19, 50, 40);
+    color: white;
+    font-size: 2rem;
+}
